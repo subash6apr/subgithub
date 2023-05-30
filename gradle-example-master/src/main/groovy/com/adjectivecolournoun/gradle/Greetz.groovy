@@ -13,3 +13,13 @@ class Greetz {
         println new App().message
     }
 }
+
+class Greetz_01 {
+
+    static void main(String... args) {
+        new SimpleGreeter().greet()
+        new JsonGreeter().greet()
+        println new App().message
+    }
+}
+
